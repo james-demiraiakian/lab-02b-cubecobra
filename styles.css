@@ -1,4 +1,5 @@
 topbar {
+    background-color: rgb(56, 57, 68);
     display: flex;
     align-content: center;
     border: 1px solid black;
@@ -7,7 +8,7 @@ topbar {
 
 .outer {
     display: flex;
-    width: 80%;
+    width: 75%;
     height: 50px;
     justify-content: space-around;
     align-items: center;
@@ -19,9 +20,10 @@ topbar {
 }
 
 #nav-top {
+    background-color: rgb(245, 245, 245);
     border: 3px solid rgb(189, 189, 189);
     display: flex;
-    width: 80%;
+    width: 75%;
     height: 50px;
     justify-content: space-around;
     align-items: center;
@@ -33,22 +35,90 @@ topbar {
 }
 
 #nav-bottom {
+    background-color: rgb(245, 245, 245);
     border: 3px solid rgb(189, 189, 189);
     border-top: 1px;
     display: flex;
-    width: 80%;
+    width: 75%;
     height: 50px;
     justify-content: space-around;
     align-items: center;
     margin: auto;
 }
 
+#view {
+    width: 65%;
+}
+
 header {
     display: flex;
-    width: 80%;
+    width: 75%;
     height: 70px;
     justify-content: space-around;
     align-items: center;
     margin: auto;
 }
 
+content {
+    display: flex;
+    width: 75%;
+    height: 70px;
+    margin: auto;
+    line-height: 40px;
+}
+
+#white {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    width: 80px;
+}
+
+#blue {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    width: 80px;
+}
+
+#black {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    width: 80px;
+}
+
+#red {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    width: 80px;
+}
+
+#green {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    width: 80px;
+}
+
+#multicolored {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    width: 80px;
+}
+
+#colorless {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    width: 80px;
+}
+
+#land {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    width: 80px;
+}
