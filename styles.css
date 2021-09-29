@@ -1,5 +1,6 @@
 topbar {
     background-color: rgb(56, 57, 68);
+    color: lightgrey;
     display: flex;
     align-content: center;
     border: 1px solid black;
