@@ -1,0 +1,54 @@
+topbar {
+    display: flex;
+    align-content: center;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.outer {
+    display: flex;
+    width: 80%;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+#logo {
+    width: 57%;
+}
+
+#nav-top {
+    border: 3px solid rgb(189, 189, 189);
+    display: flex;
+    width: 80%;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+#actual {
+    width: 60%;
+}
+
+#nav-bottom {
+    border: 3px solid rgb(189, 189, 189);
+    border-top: 1px;
+    display: flex;
+    width: 80%;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    width: 80%;
+    height: 70px;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
